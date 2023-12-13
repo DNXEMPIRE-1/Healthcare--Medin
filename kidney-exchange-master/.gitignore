@@ -1,0 +1,10 @@
+.vscode
+.venv
+__pycache__
+*.json
+*.csv
+result/
+vendor
+composer.lock
+.env
+*.txt

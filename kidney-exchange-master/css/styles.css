@@ -1,0 +1,56 @@
+body{
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0%;
+}
+
+.wrapper{   
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#s1{
+    background-image: url('../images/b1.jpg');
+    background-position: center center;
+    min-height: 200px;
+
+}
+
+#s1 h2{
+    color: honeydew;
+}
+
+#s1 p{
+    color: honeydew;
+}
+
+#s2{
+    background-image: url('../images/b2.jpg');
+    background-position: center center;
+    min-height: 200px;
+
+}
+
+#s2 h2{
+    color: honeydew;
+}
+
+#s2 ol{
+    color: honeydew;
+}
+
+#s3{
+    background-image: url('../images/b3.jpg');
+    background-position: center center;
+
+}
+
+#s3 h2{
+    color: honeydew;
+}
+
+#s3 form{
+    color: honeydew;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: light-blue;
+    color: midnightblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+margin-left:170px;
+padding-left:50px;
+padding-right: 50px;
+margin-top:50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left:200px;
+padding-left:10px;
+padding-right: 10px;
+
+}
+
+.dropdown-content a {
+    color: indigo;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:grey;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:grey;
+    
+}
+body  {
+    background-image: url("emp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="font-size:45px;text-align:center">Healthcare</h1>
+
+<div class="dropdown">
+  <button class="dropbtn">Patient</button>
+  <div class="dropdown-content">
+    <a href="patient_reg.html">sign up</a>
+    <a href="patient_login.php">login</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Doctor</button>
+  <div class="dropdown-content">
+    <a href="doctor_reg.html">sign up</a>
+    <a href="doctor_login.php">login</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Hospital staff</button>
+  <div class="dropdown-content">
+    <a href="hospital_staff_reg.html">sign up</a>
+    <a href="hospital_staff_login.php">login</a>
+    <a href="hospital_registration.html">Hospital registration</a>
+  </div>
+
+</div>
+</body>
+</html>
